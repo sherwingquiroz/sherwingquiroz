@@ -1,11 +1,22 @@
-### Hi there 👋
 
+
+## from pyspark.sql import SparkSession
 <!--
-**sherwingquiroz/sherwingquiroz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
+Create SparkSession
 -->
+spark = SparkSession.builder \
+      .master("local[1]") \
+      .appName("sherwingquiroz.dev") \
+      .getOrCreate()
+  
+##dataList = [
+("JavaScript", 20),
+("Python", 20),
+("Spark.SQL", 10),
+("Linux Server", 10),
+("Practice", 40)]         
+##rdd=spark.sparkContext.parallelize(dataList)
+
 - 🔭 I’m currently working on start in tech
 - 🌱 I’m currently learning data analyst
 - 👯 I’m looking to collaborate with world
@@ -13,4 +24,9 @@ Here are some ideas to get you started:
 - 💬 Ask me about quantum computing
 - 📫 How to reach me: sherwingquiroz.dev
 - 😄 Pronouns: Cluster
-- ⚡ Fun fact: My nickname the tamer of artificial intelligence, comes from videogames glitch
+- ⚡ Fun fact: My nickname the tamer of artificial intelligence comes from videogames glitch
+
+### Looking for Inspiration
+- [ ] Learn to click? Practice here.
+- [x] Evolve one level
+  - [ ] New Skill
