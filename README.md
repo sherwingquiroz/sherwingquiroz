@@ -17,7 +17,7 @@ spark = SparkSession.builder \
 ("Practice", 40)]         
 ##rdd=spark.sparkContext.parallelize(dataList)
 
-- 🔭 I’m currently working on start in tech
+- 🔭 I’m currently searching to start in tech
 - 🌱 I’m currently learning data analyst
 - 👯 I’m looking to collaborate with world
 - 🤔 I’m looking for help with learn and earn
